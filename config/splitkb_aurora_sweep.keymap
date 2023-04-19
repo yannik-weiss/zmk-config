@@ -33,7 +33,7 @@
             bindings = <
   &kp ESC     &kp AT  &kp HASH  &kp DOLLAR        &kp PERCENT           &kp CARET         &kp AMPERSAND           &kp ASTERISK           &kp SEMI  &kp BACKSPACE
   &kp TAB  &kp EQUAL    &trans   &kp COLON   &kp SINGLE_QUOTE       &kp BACKSLASH        &kp LEFT_BRACE        &kp RIGHT_BRACE           &kp PIPE      &kp ENTER
-&kp TILDE     &trans    &trans      &trans  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET         &trans
+&kp TILDE     &trans    &trans      &trans  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET          &to 3
                                      &to 0     &kp LEFT_SHIFT       &kp RIGHT_ALT                 &to 2
             >;
         };
@@ -42,8 +42,17 @@
             bindings = <
     &kp ESC        &trans  &trans  &trans         &kp UNDER        &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
     &kp TAB     &kp SLASH  &trans  &trans          &kp PLUS        &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp ENTER
-&kp C_RESET  &kp ASTERISK  &trans  &trans           &kp DOT     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &trans
+&kp C_RESET  &kp ASTERISK  &trans  &trans           &kp DOT     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &to 3
                                     &to 0  &kp LEFT_COMMAND    &kp RIGHT_ALT         &to 1
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+  &kp ESC  &trans  &trans  &trans            &trans           &trans    &trans  &trans     &trans  &kp BACKSPACE
+  &kp TAB  &trans  &trans  &trans           &kp DEL         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT      &kp ENTER
+&kp GRAVE  &trans  &trans  &trans    &kp LEFT_SHIFT           &trans    &trans  &trans     &trans         &trans
+                            &to 0  &kp LEFT_COMMAND    &kp RIGHT_ALT     &to 1
             >;
         };
     };

@@ -9,8 +9,13 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    flavor = "tap-preferred";
-    tapping_term_ms = <250>;
+    flavor = "balanced";
+    tapping_term_ms = <200>;
+};
+
+&ht_hp {
+    flavor = "balanced";
+    tapping_term_ms = <200>;
 };
 
 / {
@@ -23,9 +28,9 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W           &kp F               &kp P           &kp B        &kp J                &kp L            &kp U    &kp Y  &kp BACKSPACE
-&kp A  &kp R  &mt LEFT_ALT S  &mt LEFT_COMMAND T           &kp G        &kp M  &mt RIGHT_COMMAND N  &mt RIGHT_ALT E    &kp I          &kp O
-&kp Z  &kp X           &kp C               &kp D           &kp V        &kp K                &kp H        &kp COMMA  &kp DOT      &kp SLASH
+&kp Q  &kp W           &kp F               &kp P           &kp B        &kp J                &kp L               &kp U             &kp Y          &kp BACKSPACE
+&kp A  &kp R  &mt LEFT_ALT S  &mt LEFT_COMMAND T           &kp G        &kp M  &mt RIGHT_COMMAND N     &mt RIGHT_ALT E             &kp I                  &kp O
+&kp Z  &kp X           &kp C               &kp D           &kp V        &kp K                &kp H  &ht_hp UNDER COMMA  &ht_hp MINUS DOT  &ht_hp QUESTION SLASH
                                        &kp SPACE  &kp LEFT_SHIFT    &kp LCTRL                &to 1
             >;
         };

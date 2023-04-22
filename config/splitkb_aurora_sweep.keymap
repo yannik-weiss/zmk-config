@@ -34,7 +34,7 @@
             bindings = <
 &kp ESC     &kp AT   &kp HASH  &kp DOLLAR       &kp PERCENT           &kp CARET         &kp AMPERSAND           &kp ASTERISK           &kp SEMI  &kp BACKSPACE
 &kp TAB  &kp SLASH  &kp MINUS   &kp EQUAL  &kp SINGLE_QUOTE       &kp BACKSLASH        &kp LEFT_BRACE        &kp RIGHT_BRACE           &kp PIPE      &kp ENTER
-  &mo 4      &none      &none       &none         &kp GRAVE    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET          &to 3
+  &mo 4      &none   &kp EXCL       &none         &kp GRAVE    &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET          &to 3
                                     &to 0    &kp LEFT_SHIFT       &kp RIGHT_ALT                 &to 2
             >;
         };

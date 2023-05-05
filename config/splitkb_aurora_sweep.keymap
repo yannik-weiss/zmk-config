@@ -26,25 +26,25 @@
 &kp Q  &kp W           &kp F                   &kp P           &kp B        &kp J                &kp L            &kp U    &kp Y  &kp BACKSPACE
 &kp A  &kp R  &mt LEFT_ALT S      &mt LEFT_COMMAND T           &kp G        &kp M  &mt RIGHT_COMMAND N  &mt RIGHT_ALT E    &kp I          &kp O
 &kp Z  &kp X           &kp C                   &kp D           &kp V        &kp K                &kp H        &kp COMMA  &kp DOT      &kp SLASH
-                              &mt LC(LS(LALT)) SPACE  &kp LEFT_SHIFT    &kp LCTRL                &to 1
+                              &mt LC(LS(LALT)) SPACE  &kp LEFT_SHIFT    &kp LCTRL                &sl 1
             >;
         };
 
         layer_1 {
             bindings = <
-&kp ESC     &kp AT            &kp HASH               &kp DOLLAR       &kp PERCENT           &kp CARET                       &kp AMPERSAND                     &kp ASTERISK           &kp SEMI  &kp BACKSPACE
-&kp TAB  &kp SLASH  &mt LEFT_ALT MINUS   &mt LEFT_COMMAND EQUAL  &kp SINGLE_QUOTE       &kp BACKSLASH        &mt RIGHT_COMMAND LEFT_BRACE        &mt RIGHT_ALT RIGHT_BRACE           &kp PIPE      &kp ENTER
-  &mo 4      &none            &kp EXCL                    &none         &kp GRAVE    &kp LEFT_BRACKET                &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET          &to 3
-                                                          &to 0    &kp LEFT_SHIFT           &kp LCTRL                               &to 2
+&kp ESC     &kp AT            &kp HASH              &kp DOLLAR       &kp PERCENT           &kp CARET                 &kp AMPERSAND               &kp ASTERISK           &kp SEMI  &kp BACKSPACE
+&kp TAB  &kp SLASH  &mt LEFT_ALT MINUS  &mt LEFT_COMMAND EQUAL  &kp SINGLE_QUOTE       &kp BACKSLASH  &mt RIGHT_COMMAND LEFT_BRACE  &mt RIGHT_ALT RIGHT_BRACE           &kp PIPE      &kp ENTER
+  &mo 4      &none            &kp EXCL                   &none         &kp GRAVE    &kp LEFT_BRACKET          &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET          &to 3
+                                                         &to 0    &kp LEFT_SHIFT           &kp LCTRL                         &to 2
             >;
         };
 
         layer_2 {
             bindings = <
-&kp ESC      &none               &none               &kp ASTERISK           &none            &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
-&kp TAB  &kp SLASH  &mt LEFT_ALT MINUS     &mt LEFT_COMMAND EQUAL        &kp PLUS            &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp ENTER
-  &mo 4      &none               &none                  &kp COMMA         &kp DOT     &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &to 3
-                                                            &to 0  &kp LEFT_SHIFT        &kp LCTRL         &to 1
+&kp ESC      &none               &none            &kp ASTERISK           &none           &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
+&kp TAB  &kp SLASH  &mt LEFT_ALT MINUS  &mt LEFT_COMMAND EQUAL        &kp PLUS           &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp ENTER
+  &mo 4      &none               &none               &kp COMMA         &kp DOT    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &to 3
+                                                         &to 0  &kp LEFT_SHIFT       &kp LCTRL         &to 1
             >;
         };
 

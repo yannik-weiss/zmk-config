@@ -32,9 +32,9 @@
 
         layer_1 {
             bindings = <
-  &kp ESC     &kp AT   &kp HASH  &kp DOLLAR        &kp PERCENT           &kp CARET         &kp AMPERSAND     &kp ASTERISK           &kp SEMI        &kp COLON
-  &kp TAB  &kp SLASH  &kp MINUS   &kp EQUAL   &kp SINGLE_QUOTE       &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_BRACE           &kp PIPE        &kp ENTER
-&kp GRAVE  &kp TILDE  &kp UNDER    &kp PLUS  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET        &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EXCLAMATION
+  &kp ESC     &kp AT   &kp HASH  &kp DOLLAR        &kp PERCENT           &kp CARET         &kp AMPERSAND           &kp ASTERISK           &kp SEMI        &kp COLON
+  &kp TAB  &kp SLASH  &kp MINUS   &kp EQUAL   &kp SINGLE_QUOTE       &kp BACKSLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS           &kp PIPE        &kp ENTER
+&kp GRAVE  &kp TILDE  &kp UNDER    &kp PLUS  &kp DOUBLE_QUOTES    &kp LEFT_BRACKET        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp EXCLAMATION
                                       &mo 3              &none               &mo 4                 &mo 2
             >;
         };

@@ -43,7 +43,7 @@
             bindings = <
 &kp ESC            &none               &none            &kp ASTERISK     &none           &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
 &kp TAB  &mt LCTRL SLASH  &mt LEFT_ALT MINUS  &mt LEFT_COMMAND EQUAL  &kp PLUS           &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp ENTER
-  &none            &none               &none               &kp COMMA   &kp DOT    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &none
+  &none            &none           &kp COMMA                 &kp DOT     &none    &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &none
                                                                &none     &none           &none         &none
             >;
         };

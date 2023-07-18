@@ -60,10 +60,10 @@
 
         layer_3 {
             bindings = <
-      &kp ESC        &kp C_PREV            &kp C_NEXT      &kp C_PLAY_PAUSE  &kp C_VOL_UP                &kp DOWN  &kp RIGHT      &none                 &none  &kp BACKSPACE
-      &kp TAB  &kp LEFT_CONTROL          &kp LEFT_ALT      &kp LEFT_COMMAND         &none                   &none  &kp RA(S)  &kp RA(U)  &kp RA(RS(NUMBER_2))      &kp ENTER
-&kp LG(MINUS)     &kp LG(EQUAL)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN                  &kp UP   &kp LEFT      &none                 &none        &kp DEL
-                                                                      &none         &none    &mt LEFT_SHIFT SPACE      &none
+      &kp ESC       &kp C_PREV            &kp C_NEXT      &kp C_PLAY_PAUSE  &kp C_VOL_UP          &kp DOWN  &kp RIGHT      &none                 &none  &kp BACKSPACE
+      &kp TAB  &mt LCTRL GRAVE          &kp LEFT_ALT      &kp LEFT_COMMAND         &none             &none  &kp RA(S)  &kp RA(U)  &kp RA(RS(NUMBER_2))      &kp ENTER
+&kp LG(MINUS)    &kp LG(EQUAL)  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN            &kp UP   &kp LEFT      &none                 &none        &kp DEL
+                                                                     &none         &none    &kp LEFT_SHIFT      &none
             >;
         };
 

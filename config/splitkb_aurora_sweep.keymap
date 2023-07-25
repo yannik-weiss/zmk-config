@@ -25,6 +25,7 @@
             bindings = <&kp LA(LS(LEFT_CONTROL))>;
             key-positions = <30 33>;
             layers = <0>;
+            timeout-ms = <200>;
         };
     };
 

@@ -23,7 +23,7 @@
 
         MEH {
             bindings = <&kp LA(LS(LEFT_CONTROL))>;
-            key-positions = <30 33>;
+            key-positions = <30 31>;
             layers = <0>;
             timeout-ms = <200>;
         };

@@ -27,15 +27,38 @@
         };
     };
 
+    macros {
+        uml_a: uml_a {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(U) &kp A>;
+            label = "UML_A";
+        };
+
+        uml_u: u_uml {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(U) &kp U>;
+            label = "U_UML";
+        };
+
+        uml_o: uml_o {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RA(U) &kp O>;
+            label = "UML_O";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-&kp Q             &kp W        &kp E           &kp R               &kp T    &kp Y      &kp U                &kp I           &kp O        &kp P
-&mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G    &kp H      &mt RIGHT_COMMAND J  &mt LEFT_ALT K  &mt RCTRL L  &mt RSHIFT ENTER
-&kp Z             &kp X        &kp C           &kp V               &kp B    &kp N      &kp M                &kp COMMA       &kp DOT      &kp SLASH
-                                               &mo 3               &mo 1    &kp SPACE  &mo 2
+&kp Q             &kp W        &kp E           &kp R               &kp T        &kp Y  &kp U                &kp I           &kp O        &kp P
+&mt LEFT_SHIFT A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G        &kp H  &mt RIGHT_COMMAND J  &mt LEFT_ALT K  &mt RCTRL L  &mt RSHIFT ENTER
+&kp Z             &kp X        &kp C           &kp V               &kp B        &kp N  &kp M                &kp COMMA       &kp DOT      &kp SLASH
+                                               &mo 3               &kp SPACE    &mo 1  &mo 2
             >;
         };
 
@@ -44,7 +67,7 @@
 &kp ESC        &kp AT                  &kp HASH        &kp DOLLAR              &kp PERCENT          &kp CARET         &kp AMPERSAND              &kp ASTERISK                &kp SEMI           &kp COLON
 &mt LSHFT TAB  &mt LEFT_CONTROL SLASH  &mt LALT MINUS  &mt LEFT_COMMAND EQUAL  &kp SINGLE_QUOTE     &kp BACKSLASH     &mt RCMD LEFT_PARENTHESIS  &mt RALT RIGHT_PARENTHESIS  &mt RCTRL PIPE     &mt RSHFT ENTER
 &kp GRAVE      &kp TILDE               &kp UNDER       &kp PLUS                &kp DOUBLE_QUOTES    &kp LEFT_BRACKET  &kp LEFT_BRACE             &kp RIGHT_BRACE             &kp RIGHT_BRACKET  &kp EXCLAMATION
-                                                       &none                   &none                &kp SPACE         &mo 4
+                                                       &mo 4                   &kp SPACE            &none             &none
             >;
         };
 
@@ -61,7 +84,7 @@
             bindings = <
 &kp ESC        &kp C_PREV       &kp C_NEXT            &kp C_PLAY_PAUSE      &kp C_VOL_UP    &kp DELETE  &none     &none         &none      &kp BACKSPACE
 &mt LSHFT TAB  &mt LCTRL GRAVE  &kp LEFT_ALT          &kp LEFT_COMMAND      &none           &kp LEFT    &kp DOWN  &kp UP_ARROW  &kp RIGHT  &mt RSHFT ENTER
-&kp LG(MINUS)  &kp LG(EQUAL)    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN    &none       &none     &none         &none      &none
+&kp LG(MINUS)  &kp LG(EQUAL)    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_VOL_DN    &kp RA(S)   &uml_a    &uml_u        &uml_o     &none
                                                       &none                 &none           &none       &none
             >;
         };

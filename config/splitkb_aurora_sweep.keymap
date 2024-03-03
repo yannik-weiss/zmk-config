@@ -33,7 +33,7 @@
         numbers_and_symbols {
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2            &kp NUMBER_3    &kp NUMBER_4            &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7           &kp NUMBER_8            &kp NUMBER_9         &kp NUMBER_0
-&kp TAB       &mt LEFT_CONTROL GRAVE  &mt LALT MINUS  &mt LEFT_COMMAND EQUAL  &kp DELETE      &kp BACKSPACE  &mt RCMD LEFT_BRACKET  &mt RALT RIGHT_BRACKET  &mt RCTRL BACKSLASH  &none
+&kp TAB       &mt LEFT_CONTROL GRAVE  &mt LALT MINUS  &mt LEFT_COMMAND EQUAL  &kp DELETE      &kp BACKSPACE  &mt RCMD LEFT_BRACKET  &mt RALT RIGHT_BRACKET  &mt RCTRL BACKSLASH  &kp SEMICOLON
 &none         &none                   &none           &none                   &none           &kp RA(S)      &kp RA(U)              &none                   &none                &none
                                                       &none                   &none           &trans         &trans
             >;

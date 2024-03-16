@@ -25,7 +25,7 @@
             #binding-cells = <0>;
             bindings = <&mt RIGHT_COMMAND J>, <&kp J>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         ALT_K: ALT_K {
@@ -34,7 +34,7 @@
             #binding-cells = <0>;
             bindings = <&mt RIGHT_ALT K>, <&kp K>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         CTRL_L: CTRL_L {
@@ -43,7 +43,7 @@
             #binding-cells = <0>;
             bindings = <&mt RIGHT_CONTROL L>, <&kp L>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         CMD_F: CMD_F {
@@ -52,7 +52,7 @@
             #binding-cells = <0>;
             bindings = <&mt LEFT_GUI F>, <&kp F>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         ALT_D: ALT_D {
@@ -61,7 +61,7 @@
             #binding-cells = <0>;
             bindings = <&mt LEFT_ALT D>, <&kp D>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         CTRL_S: CTRL_S {
@@ -70,7 +70,7 @@
             #binding-cells = <0>;
             bindings = <&mt LEFT_CONTROL S>, <&kp S>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
     };
 

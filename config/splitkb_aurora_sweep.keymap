@@ -18,71 +18,15 @@
 / {
     combos { compatible = "zmk,combos"; };
 
-    behaviors {
-        CMD_J: CMD_J {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CMD_J";
-            #binding-cells = <0>;
-            bindings = <&mt RIGHT_COMMAND J>, <&kp J>;
-
-            tapping-term-ms = <150>;
-        };
-
-        ALT_K: ALT_K {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ALT_K";
-            #binding-cells = <0>;
-            bindings = <&mt RIGHT_ALT K>, <&kp K>;
-
-            tapping-term-ms = <150>;
-        };
-
-        CTRL_L: CTRL_L {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CTRL_L";
-            #binding-cells = <0>;
-            bindings = <&mt RIGHT_CONTROL L>, <&kp L>;
-
-            tapping-term-ms = <150>;
-        };
-
-        CMD_F: CMD_F {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CMD_F";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_GUI F>, <&kp F>;
-
-            tapping-term-ms = <150>;
-        };
-
-        ALT_D: ALT_D {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ALT_D";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_ALT D>, <&kp D>;
-
-            tapping-term-ms = <150>;
-        };
-
-        CTRL_S: CTRL_S {
-            compatible = "zmk,behavior-tap-dance";
-            label = "CTRL_S";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_CONTROL S>, <&kp S>;
-
-            tapping-term-ms = <150>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
         default {
             bindings = <
-&kp Q  &kp W    &kp E   &kp R   &kp T    &kp Y                 &kp U       &kp I      &kp O    &kp P
-&kp A  &CTRL_S  &ALT_D  &CMD_F  &kp G    &kp H                 &CMD_J      &ALT_K     &CTRL_L  &kp ENTER
-&kp Z  &kp X    &kp C   &kp V   &kp B    &kp N                 &kp M       &kp COMMA  &kp DOT  &kp SLASH
-                        &mo 2   &mo 1    &mt LEFT_SHIFT SPACE  &kp ESCAPE
+&kp Q  &kp W        &kp E           &kp R               &kp T    &kp Y                 &kp U                &kp I           &kp O        &kp P
+&kp A  &mt LCTRL S  &mt LEFT_ALT D  &mt LEFT_COMMAND F  &kp G    &kp H                 &mt RIGHT_COMMAND J  &mt LEFT_ALT K  &mt RCTRL L  &kp ENTER
+&kp Z  &kp X        &kp C           &kp V               &kp B    &kp N                 &kp M                &kp COMMA       &kp DOT      &kp SLASH
+                                    &mo 2               &mo 1    &mt LEFT_SHIFT SPACE  &kp ESCAPE
             >;
         };
 

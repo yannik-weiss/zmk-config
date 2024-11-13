@@ -34,7 +34,7 @@
             bindings = <
 &kp NUMBER_1       &kp NUMBER_2               &kp NUMBER_3               &kp NUMBER_4                       &kp NUMBER_5    &kp NUMBER_6   &kp NUMBER_7                         &kp NUMBER_8                 &kp NUMBER_9                 &kp NUMBER_0
 &mt LEFT_META TAB  &mt LEFT_ALT LEFT_BRACKET  &mt LEFT_SHIFT LEFT_BRACE  &mt LEFT_CONTROL LEFT_PARENTHESIS  &kp DELETE      &kp BACKSPACE  &mt RIGHT_CONTROL RIGHT_PARENTHESIS  &mt RIGHT_SHIFT RIGHT_BRACE  &mt RIGHT_ALT RIGHT_BRACKET  &mt RIGHT_META SINGLE_QUOTE
-&kp MINUS          &kp GRAVE                  &kp MINUS                  &kp EQUAL                          &none           &none          &kp BACKSLASH                        &none                        &none                        &none
+&none              &kp GRAVE                  &kp MINUS                  &kp EQUAL                          &none           &none          &kp BACKSLASH                        &none                        &none                        &none
                                                                          &none                              &none           &none          &none
             >;
         };
